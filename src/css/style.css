@@ -1,0 +1,37 @@
+body {
+  background-color: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  background-color: #292C2C;
+  opacity: 0.7; }
+
+#home-section {
+  background: url("../img/home.jpg") no-repeat center top;
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed; }
+  #home-section .overly-dark {
+    min-height: 700px;
+    background-color: rgba(0, 0, 0, 0.7); }
+    #home-section .overly-dark .home-inner {
+      padding-top: 100px;
+      padding-bottom: 50px; }
+  #home-section .form-head {
+    opacity: 0.7; }
+
+.fas {
+  background-color: #fff;
+  color: #008ed6;
+  font-size: 30px;
+  padding: 4px;
+  border-radius: 5px; }
+
+#fas1 {
+  padding-right: 0px;
+  margin: 0; }
+
+@media (max-width: 768px) {
+  #home-section h1 {
+    font-size: 35px; } }
